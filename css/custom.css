@@ -1,0 +1,96 @@
+.tsdsf_promo_container {
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px dashed;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.tsdsf_badge{
+    border-radius: 5px;
+    padding: 1px;
+    border: 0.5px solid #000000;
+
+}
+
+.tsdsf_formrow {
+    margin: 10px 0px 10px 0px;
+}
+
+.tsdsf_row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tsdsf_col-3 {
+    width: 25%;
+    float: left;
+}
+.tsdsf_col-6 {
+    width: 50%;
+    float: left;
+}
+.tsdsf_col-9 {
+    width: 75%;
+    float: left;
+}
+.tsdsf_col-12 {
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .tsdsf_col-6 {
+        width: 100%;
+        float: left;
+    }
+}
+
+.tsdsf_embedContainer {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.tsdsf_content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tsdsf_initiallyhidden {
+    display: none;
+}
+
+.tsdsf_center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.tsdsf_slidecontainer {
+    width: 100%; /* Width of the outside container */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tsdsf_full_input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tsdsf_slider {
+    width: 100%;
+    box-sizing: border-box;
+}
+
